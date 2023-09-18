@@ -1,0 +1,27 @@
+.image-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/bottle.webp");
+    height: calc(100vh - 64px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-transform: unset !important;
+    text-align: center;
+}
+
+.image-bg h1 {
+    color: white;
+    text-transform: unset !important;
+}
+
+.image-bg:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img2.jpg");
+}
+
+.image-bg:nth-child(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img3.jpg");
+}
+
+body {
+    background-color: #212529 !important;
+}

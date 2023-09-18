@@ -1,13 +1,21 @@
 import Image from "next/image";
-
+import Jumbotron from "@/_components/Jumbotron";
 
 export default function Home() {
   return (
-    <main className="container-fluid d-flex justify-content-center align-items-center" style={{width:"100%"}}>
-      <div className="">
-        <p className="text-black fw-bold">Hello world</p>
-        <button type="button" class="btn btn-primary">Primary</button>
-      </div>
+    <main className="">
+      <Jumbotron
+        maintext="Welcome to Trashly"
+        leadtext="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, at."
+      />
+      <Jumbotron
+        maintext="Lorem ipsum dolor sit amet."
+        leadtext="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, at."
+      />
+      <Jumbotron
+        maintext="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+        leadtext="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, at."
+      />
     </main>
   );
 }

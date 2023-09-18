@@ -4,6 +4,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <footer
+      data-bs-theme="dark"
       style={{ left: 0, bottom: 0 }}
       className="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
     >
