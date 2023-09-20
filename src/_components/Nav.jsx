@@ -6,9 +6,9 @@ import {BsRecycle} from 'react-icons/bs'
 function Nav() {
   return (
     <nav
-      className="navbar navbar-expand-lg bg-primary"
+      className="navbar navbar-expand-lg bg-primary nav_main"
       data-bs-theme="dark"
-      style={{ height: "4rem" }}
+      style={{position:"fixed",top:"0",left:"0",width:"100%",zIndex:"10"}}
     >
       <div className="container-fluid">
         <Link className="navbar-brand" href="#">
@@ -25,22 +25,27 @@ function Nav() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarColor01">
+        <div className="collapse navbar-collapse bg-primary nav_menu"  id="navbarColor01">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <Link className="nav-link active" href="#">
+              <Link className="nav-link" href="/">
                 Home
                 <span className="visually-hidden">(current)</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="#">
-                Features
+              <Link className="nav-link" href="/working">
+                Working
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="#">
-                Pricing
+              <Link className="nav-link" href="/products">
+                Shop
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="/redeem">
+                Redeem
               </Link>
             </li>
             <li className="nav-item">

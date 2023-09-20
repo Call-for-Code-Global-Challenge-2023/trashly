@@ -3,7 +3,7 @@ import Jumbotron from "@/_components/Jumbotron";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="pg_margin">
       <Jumbotron
         maintext="Welcome to Trashly"
         leadtext="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, at."

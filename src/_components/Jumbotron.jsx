@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-function Footer({maintext, leadtext}) {
+function Jumbotron({maintext, leadtext}) {
   return (
     <>
     <div className="image-bg d-flex align-items-center justify-content-center flex-column">
@@ -14,4 +14,4 @@ function Footer({maintext, leadtext}) {
   );
 }
 
-export default Footer;
+export default Jumbotron;

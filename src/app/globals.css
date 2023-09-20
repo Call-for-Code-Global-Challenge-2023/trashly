@@ -10,18 +10,44 @@
 }
 
 .image-bg h1 {
+    background-attachment: fixed;
     color: white;
     text-transform: unset !important;
 }
 
 .image-bg:nth-child(2) {
+    background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img2.jpg");
 }
 
 .image-bg:nth-child(3) {
+    background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img3.jpg");
 }
 
 body {
     background-color: #212529 !important;
+}
+
+.nav_main{
+    height: 4rem;
+}
+.nav_menu{
+    padding-left: unset;
+}
+
+.pg_margin{
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 786px){
+    .nav_main{
+        height: 4.8rem;
+    }
+    .nav_menu{
+        padding-left: 1rem;
+    }
+    .pg_margin{
+        margin-top: 4.8rem;
+    }
 }
