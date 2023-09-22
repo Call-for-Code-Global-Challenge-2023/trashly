@@ -30,9 +30,10 @@ export default function Redeem() {
       className="p-4 d-flex flex-row flex-wrap justify-content-center align-items-center pg_margin"
       style={{minHeight:"60vh"}}
     >
-      {redeemList.map((ele) => {
+      {redeemList.map((ele, index) => {
         return (
           <RedeemCard
+            key={index}
             title={ele.title}
             desc={ele.desc}
             points={ele.points}

@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .image-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/bottle.webp");
     height: calc(100vh - 64px);
@@ -9,19 +13,40 @@
     text-align: center;
 }
 
-.image-bg h1 {
+.my-card {
+    background-color: #1b1f22 !important;
+    border: 1px solid #fff !important;
+}
+
+.my-card input {
+    background-color: #212529 !important;
+    color: #fff;
+    border: 1px solid #1b1f22 !important;
+}
+
+.my-card input:focus {
+    border: 1px solid #fff !important;
+    color: #fff;
+}
+
+.max-height {
+    height: calc(100vh - 64px - 97px);
+}
+
+.image-bg {
     background-attachment: fixed;
+}
+
+.image-bg h1 {
     color: white;
     text-transform: unset !important;
 }
 
 .image-bg:nth-child(2) {
-    background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img2.jpg");
 }
 
 .image-bg:nth-child(3) {
-    background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img3.jpg");
 }
 

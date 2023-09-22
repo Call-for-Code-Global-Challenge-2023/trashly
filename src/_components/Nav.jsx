@@ -62,21 +62,18 @@ function Nav() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown
+                Auth
               </Link>
               <div className="dropdown-menu">
-                <Link className="dropdown-item" href="#">
-                  Action
+                <Link className="dropdown-item" href="/login">
+                  Login
                 </Link>
-                <Link className="dropdown-item" href="#">
-                  Another action
-                </Link>
-                <Link className="dropdown-item" href="#">
-                  Something else here
+                <Link className="dropdown-item" href="/signup">
+                  Signup
                 </Link>
                 <div className="dropdown-divider"></div>
-                <Link className="dropdown-item" href="#">
-                  Separated link
+                <Link className="dropdown-item disabled" href="/logout">
+                  Logout
                 </Link>
               </div>
             </li>
