@@ -11,7 +11,7 @@ function Nav() {
       style={{position:"fixed",top:"0",left:"0",width:"100%",zIndex:"10"}}
     >
       <div className="container-fluid">
-        <Link className="navbar-brand" href="#">
+        <Link className="navbar-brand" href="/">
           <BsRecycle style={{height:"2.5rem",width:"2.5rem"}}/> Trashly
         </Link>
         <button
@@ -44,7 +44,7 @@ function Nav() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/redeem">
+              <Link className="nav-link"  href="/redeem">
                 Redeem
               </Link>
             </li>

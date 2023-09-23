@@ -4,7 +4,7 @@
 
 .image-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/bottle.webp");
-    height: calc(100vh - 64px);
+    height: calc(100vh);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,9 +65,15 @@ body {
     margin-top: 4rem;
 }
 
+.hoverShadow:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(1.01);
+    cursor:alias;
+}
+
 @media screen and (max-width: 786px){
     .nav_main{
-        height: 4.8rem;
+        height: 5rem;
     }
     .nav_menu{
         padding-left: 1rem;

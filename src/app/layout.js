@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import "bootstrap/dist/css/bootstrap.css";
+import Providers from "./Providers";
 import "bootswatch/dist/lux/bootstrap.min.css";
 import Nav from "@/_components/Nav";
 import Footer from "@/_components/Footer";
@@ -17,9 +17,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav />
-        {children}
-        <Footer />
+        <Providers>
+          <Nav />
+          {children}
+          <Footer />
+        </Providers>
       </body>
       <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
