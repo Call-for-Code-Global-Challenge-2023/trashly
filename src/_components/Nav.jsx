@@ -44,6 +44,11 @@ function Nav() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" href="/sell">
+                Sell
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link"  href="/redeem">
                 Redeem
               </Link>

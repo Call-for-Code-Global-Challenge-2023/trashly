@@ -3,7 +3,6 @@ import React, { useRef, useLayoutEffect } from "react";
 import "@/_css/timeline.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
 import { TbCameraStar } from "react-icons/tb";
 import { GiBrain } from "react-icons/gi";
 import { GiPiggyBank } from "react-icons/gi";
