@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import {BsRecycle} from 'react-icons/bs'
+import LogoutButton from "./LogoutButton";
 
 function Nav() {
   return (
@@ -77,9 +78,9 @@ function Nav() {
                   Signup
                 </Link>
                 <div className="dropdown-divider"></div>
-                <Link className="dropdown-item disabled" href="/logout">
-                  Logout
-                </Link>
+                {/* <Link className="dropdown-item disabled" href="/logout"> */}
+                  <LogoutButton />
+                {/* </Link> */}
               </div>
             </li>
           </ul>

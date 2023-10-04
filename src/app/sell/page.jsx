@@ -1,7 +1,24 @@
-import React from "react";
+"use client";
+
 import { PiHandCoinsFill } from "react-icons/pi";
 
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "@/firebase";
+
 export default function Sell() {
+    // auth guard
+    const [authChecking, setAuthChecking] = useState(true);
+    const router = useRouter();
+    useEffect(() => {
+      onAuthStateChanged(auth, (user) => {
+        if (!user) router.push("/login");
+        else setAuthChecking(false);
+      });
+    }, []);
+    if (authChecking) return <p>Loading...</p>;
+
   return (
     <div
       style={{

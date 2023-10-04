@@ -1,7 +1,24 @@
+"use client";
+
 import ProductBuy from "@/_components/ProductBuy";
-import React from "react";
+
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "@/firebase";
 
 export default function Products() {
+  // auth guard
+  const [authChecking, setAuthChecking] = useState(true);
+  const router = useRouter();
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (!user) router.push("/login");
+      else setAuthChecking(false);
+    });
+  }, []);
+  if (authChecking) return <p>Loading...</p>;
+
   var productList = [
     {
       title: "Bird house",

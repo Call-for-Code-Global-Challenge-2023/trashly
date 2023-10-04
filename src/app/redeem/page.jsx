@@ -1,10 +1,27 @@
+"use client";
+
 import RedeemCard from "@/_components/RedeemCard";
-import React from "react";
 import { SiBookmyshow } from "react-icons/si";
 import { SiZomato } from "react-icons/si";
 import { SiSwiggy } from "react-icons/si";
 
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "@/firebase";
+
 export default function Redeem() {
+  // auth guard
+  const [authChecking, setAuthChecking] = useState(true);
+  const router = useRouter();
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (!user) router.push("/login");
+      else setAuthChecking(false);
+    });
+  }, []);
+  if (authChecking) return <p>Loading...</p>;
+
   var redeemList = [
     {
       title: "Book My Show",
