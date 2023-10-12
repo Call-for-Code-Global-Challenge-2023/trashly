@@ -77,10 +77,7 @@ function Nav() {
                 <Link className="dropdown-item" href="/signup">
                   Signup
                 </Link>
-                <div className="dropdown-divider"></div>
-                {/* <Link className="dropdown-item disabled" href="/logout"> */}
-                  <LogoutButton />
-                {/* </Link> */}
+                <LogoutButton />
               </div>
             </li>
           </ul>
