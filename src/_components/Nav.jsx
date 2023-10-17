@@ -46,7 +46,7 @@ function Nav() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/sell">
-                Sell
+                Recycle
               </Link>
             </li>
             <li className="nav-item">

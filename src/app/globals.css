@@ -33,7 +33,7 @@
     height: calc(100vh - 64px - 97px);
 }
 
-.image-bg {
+.image-bg:nth-child(1) , .image-bg:nth-child(3){
     background-attachment: fixed;
 }
 

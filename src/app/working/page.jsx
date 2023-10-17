@@ -21,7 +21,7 @@ export default function Timeline() {
       gsap.to(".TLBox1", {
         scrollTrigger: {
           trigger: ".TLBox1",
-          start:"top center",
+          start: "top center",
           // toggleActions: "restart none none none",
         },
         duration: 1,
@@ -32,7 +32,7 @@ export default function Timeline() {
       gsap.to(".TLBox2", {
         scrollTrigger: {
           trigger: ".TLBox2",
-          start:"top center",
+          start: "top center",
           // toggleActions: "restart none none none",
         },
         duration: 1,
@@ -43,7 +43,7 @@ export default function Timeline() {
       gsap.to(".TLBox3", {
         scrollTrigger: {
           trigger: ".TLBox3",
-          start:"top center",
+          start: "top center",
           // toggleActions: "restart none none none",
         },
         duration: 1,
@@ -54,7 +54,7 @@ export default function Timeline() {
       gsap.to(".TLBox4", {
         scrollTrigger: {
           trigger: ".TLBox4",
-          start:"top center",
+          start: "top center",
           // toggleActions: "restart none none none",
         },
         duration: 1,
@@ -65,7 +65,7 @@ export default function Timeline() {
       gsap.to(".TLBox5", {
         scrollTrigger: {
           trigger: ".TLBox5",
-          start:"top center",
+          start: "top center",
           // toggleActions: "restart none none none",
         },
         // delay:0.5,
@@ -91,10 +91,9 @@ export default function Timeline() {
           </div>
           <div className="timeline__event__description">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-              corporis incidunt reprehenderit accusantium id aut architecto
-              harum quidem dolorem in!
+              No more manual entry of product details! A customer can now simply
+              take a picture of each and every plastic items that they have and
+              upload it to Trashly. That's it!
             </p>
           </div>
         </div>
@@ -107,14 +106,13 @@ export default function Timeline() {
         </div>
         <div className="timeline__event__content">
           <div className="timeline__event__title">
-            Determination of quantity and quality by AI & ML
+            Determination of quantity by AI & ML
           </div>
           <div className="timeline__event__description">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-              corporis incidunt reprehenderit accusantium id aut architecto
-              harum quidem dolorem in!
+              Let the AI do the talking! The picture of the plastic wastes
+              uploaded by the user can be perceived by our ML model and the
+              quantity of the wastes can be easily determined.
             </p>
           </div>
         </div>
@@ -131,10 +129,9 @@ export default function Timeline() {
           </div>
           <div className="timeline__event__description">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-              corporis incidunt reprehenderit accusantium id aut architecto
-              harum quidem dolorem in!
+              Don't give it away for free! Based on the quantity of the plastic
+              wastes available with the user, Trashly generates a significant
+              amount of Cashback points to the user.
             </p>
           </div>
         </div>
@@ -147,15 +144,14 @@ export default function Timeline() {
         </div>
         <div className="timeline__event__content">
           <div className="timeline__event__title">
-            Automation on allocation of nearest trader around the user's
+            Automation on allocation of nearest vendor around the user's
             location
           </div>
           <div className="timeline__event__description">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-              corporis incidunt reprehenderit accusantium id aut architecto
-              harum quidem dolorem in!
+              Your Kabadiwala at your service! You can call your nearest vendor
+              at your place and let them take away all your wastes. That's the
+              fun of recycling from the comfort of your house.
             </p>
           </div>
         </div>
@@ -172,10 +168,9 @@ export default function Timeline() {
           </div>
           <div className="timeline__event__description">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-              corporis incidunt reprehenderit accusantium id aut architecto
-              harum quidem dolorem in!
+              Go and grab some exciting rewards! The cashback points generated
+              to the users's account can be easily redeemed in the form of
+              cashbacks, offers, soupons and many more exciting deals.
             </p>
           </div>
         </div>
