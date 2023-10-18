@@ -20,7 +20,7 @@ export default function Home() {
         maintext="Recycle products and earn real money!"
         leadtext="Sell your plastic waste to us. You get some cashback points, using which you can redeem coupons for differnent apps that you use regularly."
       >
-        <Link href="/products" className="btn btn-success">Start recycling!</Link>
+        <Link href="/sell" className="btn btn-success">Start recycling!</Link>
       </Jumbotron>
       <Jumbotron
         id="buy"

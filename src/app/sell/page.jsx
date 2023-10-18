@@ -19,6 +19,12 @@ export default function Sell() {
     }, []);
     if (authChecking) return <p>Loading...</p>;
 
+    const handleSubmit = () => {
+      document.getElementById("floatingTextarea").value="";
+      document.getElementById("formFileLg").value="";
+      alert("Your data has been saved. A trader will reach your location soon.")
+    }
+
   return (
     <div
       style={{
@@ -75,7 +81,7 @@ export default function Sell() {
             type="file"
           />
         </div>
-        <button type="button" class="btn btn-outline-warning rounded my-4">Submit</button>
+        <button type="button" class="btn btn-outline-warning rounded my-4" onClick={handleSubmit}>Submit</button>
       </div>
     </div>
   );
