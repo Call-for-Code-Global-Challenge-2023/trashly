@@ -14,10 +14,11 @@ function Footer() {
           className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
         >
           <Image
+            id="footer-next-icon"
             src="/next.svg"
             alt="trashly icon"
-            width={32}
-            height={32}
+            width={64}
+            height={64}
           />
         </a>
         <span className="mb-3 mb-md-0 text-muted">

@@ -36,7 +36,7 @@ function Nav() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/working">
-                Working
+                About
               </Link>
             </li>
             <li className="nav-item">
@@ -52,11 +52,6 @@ function Nav() {
             <li className="nav-item">
               <Link className="nav-link"  href="/redeem">
                 Redeem
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#">
-                About
               </Link>
             </li>
             <li className="nav-item dropdown">

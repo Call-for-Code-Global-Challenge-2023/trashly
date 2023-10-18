@@ -2,8 +2,12 @@
     box-sizing: border-box;
 }
 
+#footer-next-icon {
+    filter: invert(100%) !important;
+}
+
 .image-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/bottle.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/bottle.jpg");
     height: calc(100vh);
     background-repeat: no-repeat;
     background-size: cover;
