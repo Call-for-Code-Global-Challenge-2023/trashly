@@ -1,6 +1,5 @@
 # TRASHLY
 
-
 ## Project Summary
 
 ### Issue we are hoping to solve
@@ -10,7 +9,7 @@ The issue we are hoping to solve is based on the problem statement, **Tracking, 
 
 Our platform **Trashly** would help to ignite healthy recycling habits within the common people by letting them exchange everyday plastic wastes for digital incentives.
 
-### Our Idea
+## Our Idea
 In the current waste management system of the country, people face many issues which leave them with absolutely no motivation to recycle plastics on their own. Some of these problems are identified as:
 
 1. Lack of a proper plastic - waste recycling platform.
@@ -38,18 +37,22 @@ We're looking for a solution by creating an android and web-based application th
 [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) – This IBM Service is meant to help us while creating an AI – powered chatbot for consumers who get stuck at any process or step while recycling or if they have any doubts regarding their exchange or purchase of other recycled products. This is still considered as a future perspective for our prototype.
 
 ## Solution Architecture
+![Trashly Solution Architecture](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/8ec59e4a-9240-4e91-b505-c3df68fd0037)
 
-![Solution Architecture](https://photos.app.goo.gl/LYRV1v4NFArWXUSH8)
 
- ⮚ Simply take a snapshot and send it to our platform if you have a certain amount of plastic waste at home. 
+
+    ⮚ Simply take a snapshot and send it to our platform if you have a certain amount of plastic waste at home. 
  
- ⮚ We can use AI and ML to assess the quality and quantity of plastic waste and generate cashback points based on that information.  
+    ⮚ We can use AI and ML to assess the quality and quantity of plastic waste and generate cashback points based on that
+    information.  
+  
+    ⮚ Through an **automation system** the model tracks the user’s location, and the nearest trader will be allocated
+    to pick up the wastes.  
  
- ⮚ Through an **automation system** the model tracks the user’s location, and the nearest trader will be allocated to pick up the wastes.  
+    ⮚ After selling the plastic garbage to the trader, the users get cashback points for redeeming attractive offers
+    and prizes on third-party apps.  
  
- ⮚ After selling the plastic garbage to the trader, the users get cashback points for redeeming attractive offers and prizes on third-party apps.  
- 
-⮚ One can also purchase **recycled plastic items** from the same platform.
+    ⮚ One can also purchase **recycled plastic items** from the same platform.
 
 
 ## Presentation Materials
@@ -60,20 +63,24 @@ We're looking for a solution by creating an android and web-based application th
 ### Project Development Roadmap
 
 The Prototype currently does the following functions:
- ⮚ User can login through authentication.
- ⮚ User can upload the picture of the wastes that they want to exchange.
- ⮚ User can buy recycled items from the SHOP section.
- ⮚ User can easily redeem cashback coupons and offers using their cashback points.
+    ⮚ User can login through authentication.
+ 
+    ⮚ User can upload the picture of the wastes that they want to exchange.
+ 
+    ⮚ User can buy recycled items from the SHOP section.
+ 
+    ⮚ User can easily redeem cashback coupons and offers using their cashback points.
  
 In the Future we plan to, 
 
-⮚ Inculcate the AI model in the backend of the website so that it can easily work out the 	   algorithm of calculating the quantity of plastic wastes available with the user.
+    ⮚ Inculcate the AI model in the backend of the website so that it can easily work out the algorithm of calculating the quantity
+    of plastic wastes available with the user.
 
-⮚ We also plan to indulge a 24/7 AI powered chatbot which can help the consumers at any point whenever they are stuck with the exchange process or have any doubts regarding their products being recycled or purchasing items on the SHOP section.
+    ⮚ We also plan to indulge a 24/7 AI powered chatbot which can help the consumers at any point whenever
+    they are stuck with the exchange process or have any doubts regarding their products being recycled or 
+    purchasing items on the SHOP section.
 
-![Roadmap](https://photos.app.goo.gl/BxTjpBskxPPXunp29)
-
-
+![Trashly Roadmap](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/7eb2fb58-2268-4734-bd78-eab9fd19bda8)
 
 ## Getting Started
 
@@ -107,4 +114,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# trashly
