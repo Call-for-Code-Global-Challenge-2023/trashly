@@ -41,16 +41,17 @@ We're looking for a solution by creating an android and web-based application th
 
 
 
-    ⮚ Simply take a snapshot and send it to our platform if you have a certain amount of plastic waste at home. 
+    ⮚ Simply take a snapshot and send it to our platform if you have a certain amount of plastic
+    waste at home. 
  
-    ⮚ We can use AI and ML to assess the quality and quantity of plastic waste and generate cashback points based on that
-    information.  
+    ⮚ We can use AI and ML to assess the quality and quantity of plastic waste and generate
+    cashback points based on that information.  
   
-    ⮚ Through an **automation system** the model tracks the user’s location, and the nearest trader will be allocated
-    to pick up the wastes.  
+    ⮚ Through an **automation system** the model tracks the user’s location, and the nearest trader
+    will be allocated to pick up the wastes.  
  
-    ⮚ After selling the plastic garbage to the trader, the users get cashback points for redeeming attractive offers
-    and prizes on third-party apps.  
+    ⮚ After selling the plastic garbage to the trader, the users get cashback points for redeeming
+    attractive offers and prizes on third-party apps.  
  
     ⮚ One can also purchase **recycled plastic items** from the same platform.
 
@@ -59,6 +60,9 @@ We're looking for a solution by creating an android and web-based application th
 
 ### Solution Demo Video
 
+
+
+[![IMAGE ALT TEXT HERE](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/249337cf-1c71-4785-b09f-568eb90d39fc)](https://www.youtube.com/watch?v=w4eNkiQAR4Q)
 
 ### Project Development Roadmap
 
@@ -73,8 +77,8 @@ The Prototype currently does the following functions:
  
 In the Future we plan to, 
 
-    ⮚ Inculcate the AI model in the backend of the website so that it can easily work out the algorithm of calculating the quantity
-    of plastic wastes available with the user.
+    ⮚ Inculcate the AI model in the backend of the website so that it can easily work out the algorithm
+    of calculating the quantity of plastic wastes available with the user.
 
     ⮚ We also plan to indulge a 24/7 AI powered chatbot which can help the consumers at any point whenever
     they are stuck with the exchange process or have any doubts regarding their products being recycled or 
