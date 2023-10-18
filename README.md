@@ -62,7 +62,7 @@ We're looking for a solution by creating an android and web-based application th
 
 
 
-[![IMAGE ALT TEXT HERE](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/249337cf-1c71-4785-b09f-568eb90d39fc)](https://www.youtube.com/watch?v=w4eNkiQAR4Q)
+[![Video](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/249337cf-1c71-4785-b09f-568eb90d39fc)](https://www.youtube.com/watch?v=w4eNkiQAR4Q)
 
 ### Project Development Roadmap
 
