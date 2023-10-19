@@ -37,8 +37,8 @@ We're looking for a solution by creating an android and web-based application th
 [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) – This IBM Service is meant to help us while creating an AI – powered chatbot for consumers who get stuck at any process or step while recycling or if they have any doubts regarding their exchange or purchase of other recycled products. This is still considered as a future perspective for our prototype.
 
 ## Solution Architecture
-![Trashly Solution Architecture](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/8ec59e4a-9240-4e91-b505-c3df68fd0037)
 
+![Trashly Solution Architecture](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/32f3067a-8c41-4873-86fe-226f78f49e6c)
 
 
     ⮚ Simply take a snapshot and send it to our platform if you have a certain amount of plastic
@@ -60,9 +60,7 @@ We're looking for a solution by creating an android and web-based application th
 
 ### Solution Demo Video
 
-
-
-[![Video](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/249337cf-1c71-4785-b09f-568eb90d39fc)](https://www.youtube.com/watch?v=w4eNkiQAR4Q)
+[![Video](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/cfa852c4-bdf7-487d-a64b-2cc378268e46)](https://www.youtube.com/watch?v=w4eNkiQAR4Q)
 
 ### Project Development Roadmap
 
@@ -84,7 +82,8 @@ In the Future we plan to,
     they are stuck with the exchange process or have any doubts regarding their products being recycled or 
     purchasing items on the SHOP section.
 
-![Trashly Roadmap](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/7eb2fb58-2268-4734-bd78-eab9fd19bda8)
+![Trashly Roadmap](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/bd3ae82b-eaa6-4818-b496-275698b4d4a5)
+
 
 ## Getting Started
 
