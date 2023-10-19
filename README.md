@@ -65,6 +65,7 @@ We're looking for a solution by creating an android and web-based application th
 ### Project Development Roadmap
 
 The Prototype currently does the following functions:
+    
     ⮚ User can login through authentication.
  
     ⮚ User can upload the picture of the wastes that they want to exchange.
