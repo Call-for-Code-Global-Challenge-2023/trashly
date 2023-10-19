@@ -60,7 +60,7 @@ We're looking for a solution by creating an android and web-based application th
 
 ### Solution Demo Video
 
-[![Video](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/cfa852c4-bdf7-487d-a64b-2cc378268e46)](https://www.youtube.com/watch?v=w4eNkiQAR4Q)
+[![Watch the video](https://img.youtube.com/vi/w4eNkiQAR4Q/hqdefault.jpg)](https://www.youtube.com/embed/w4eNkiQAR4Q)
 
 ### Project Development Roadmap
 
@@ -84,6 +84,9 @@ In the Future we plan to,
 
 ![Trashly Roadmap](https://github.com/Call-for-Code-Global-Challenge-2023/trashly/assets/74723804/bd3ae82b-eaa6-4818-b496-275698b4d4a5)
 
+## Live Prototype
+
+Open [https://trashly.app](https://trashly.app) with your browser to see the result.
 
 ## Getting Started
 
